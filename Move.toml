@@ -1,0 +1,21 @@
+[package]
+name = "TestNFT"
+version = "1.0.0"
+authors = []
+
+[addresses]
+admin = '0x4aa91a2878c2050fad21187c7bce5ed7c55831ab1b099acc01e3a6579f9b60c7'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
